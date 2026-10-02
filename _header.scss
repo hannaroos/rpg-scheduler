@@ -1,0 +1,16 @@
+@use "variables.scss" as *;
+
+.navigation {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    background-color: $base-color;
+
+    &__logo {
+        font-family: $logo-font;
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+}

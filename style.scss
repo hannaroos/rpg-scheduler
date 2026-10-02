@@ -1,0 +1,17 @@
+@use "variables.scss" as *;
+@use "_header.scss" as *;
+@use "_main.scss" as *;
+@use "_footer.scss" as *;
+@use "_mixins.scss" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // background-color: $base-color;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

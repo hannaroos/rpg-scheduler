@@ -1,0 +1,59 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  background-color: #9f8f84;
+}
+.navigation__logo {
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+.hero__heading {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero__description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero__btn {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content div {
+  min-height: 400px;
+  border: solid 10px red;
+  background-color: #9f8f84;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
